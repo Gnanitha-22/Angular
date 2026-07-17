@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    { "id": 1, "title": "Requirements Review", "assignee": "Ava", "status": "In Progress", "priority": "High", "dueDate": "2026-07-18", "effort": 8 },
+    { "id": 2, "title": "Sprint Planning", "assignee": "Noah", "status": "Planning", "priority": "Medium", "dueDate": "2026-07-20", "effort": 5 },
+    { "id": 3, "title": "UI QA", "assignee": "Mia", "status": "Blocked", "priority": "High", "dueDate": "2026-07-22", "effort": 6 },
+    { "id": 4, "title": "Release Readiness", "assignee": "Liam", "status": "Completed", "priority": "Low", "dueDate": "2026-07-16", "effort": 3 }
+  ],
+  "resources": [
+    { "id": 1, "name": "Ava Chen", "role": "Lead Engineer", "skill": "Angular", "availability": 85, "location": "Seattle" },
+    { "id": 2, "name": "Noah Patel", "role": "Project Manager", "skill": "Delivery", "availability": 70, "location": "Austin" },
+    { "id": 3, "name": "Mia Singh", "role": "QA Lead", "skill": "Playwright", "availability": 60, "location": "Toronto" },
+    { "id": 4, "name": "Liam Brooks", "role": "UX Designer", "skill": "Material", "availability": 90, "location": "Denver" }
+  ],
+  "users": [
+    { "id": 1, "name": "John Anderson", "email": "john.anderson@portal.com", "role": "Admin", "department": "Engineering", "status": "Active", "joinDate": "2023-01-15" },
+    { "id": 2, "name": "Sarah Chen", "email": "sarah.chen@portal.com", "role": "Project Manager", "department": "Product", "status": "Active", "joinDate": "2023-03-20" },
+    { "id": 3, "name": "Michael Rodriguez", "email": "michael.rodriguez@portal.com", "role": "Team Member", "department": "Engineering", "status": "Active", "joinDate": "2023-05-10" },
+    { "id": 4, "name": "Emily Thompson", "email": "emily.thompson@portal.com", "role": "Team Member", "department": "Design", "status": "Active", "joinDate": "2023-06-01" }
+  ],
+  "projects": [
+    { "id": 1, "name": "Mobile App Redesign", "code": "PROJ-001", "description": "Complete redesign of mobile application with modern UI/UX", "startDate": "2024-01-15", "endDate": "2024-06-30", "manager": "Sarah Chen", "status": "In Progress", "priority": "High", "budget": 150000 },
+    { "id": 2, "name": "Cloud Migration", "code": "PROJ-002", "description": "Migrate on-premises infrastructure to cloud platform", "startDate": "2024-02-01", "endDate": "2024-08-31", "manager": "James Wilson", "status": "In Progress", "priority": "Critical", "budget": 500000 }
+  ],
+  "allocations": [
+    { "id": 1, "userName": "John Anderson", "projectName": "Mobile App Redesign", "allocationPercent": 85, "utilizationPercent": 78, "status": "Healthy" },
+    { "id": 2, "userName": "Sarah Chen", "projectName": "Cloud Migration", "allocationPercent": 110, "utilizationPercent": 92, "status": "Overallocated" }
+  ],
+  "dashboard": {
+    "tasks": [
+      { "id": 1, "title": "Requirements Review", "assignee": "Ava", "status": "In Progress", "priority": "High", "dueDate": "2026-07-18", "effort": 8 },
+      { "id": 2, "title": "Sprint Planning", "assignee": "Noah", "status": "Planning", "priority": "Medium", "dueDate": "2026-07-20", "effort": 5 },
+      { "id": 3, "title": "UI QA", "assignee": "Mia", "status": "Blocked", "priority": "High", "dueDate": "2026-07-22", "effort": 6 }
+    ],
+    "resources": [
+      { "id": 1, "name": "Ava Chen", "role": "Lead Engineer", "skill": "Angular", "availability": 85, "location": "Seattle" },
+      { "id": 2, "name": "Noah Patel", "role": "Project Manager", "skill": "Delivery", "availability": 70, "location": "Austin" },
+      { "id": 3, "name": "Mia Singh", "role": "QA Lead", "skill": "Playwright", "availability": 60, "location": "Toronto" }
+    ]
+  }
+}

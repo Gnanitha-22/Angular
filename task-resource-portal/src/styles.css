@@ -1,0 +1,57 @@
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+:root {
+  --bg-primary: #f8fafc;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #f3f4f6;
+  --text-primary: #1f2937;
+  --text-secondary: #6b7280;
+  --border-color: #e5e7eb;
+  --sidebar-bg: linear-gradient(180deg, #111827 0%, #0f172a 100%);
+  --header-bg: linear-gradient(135deg, #0f172a 0%, #1d4ed8 100%);
+}
+
+:root.dark-theme {
+  --bg-primary: #0f172a;
+  --bg-secondary: #1a2332;
+  --bg-tertiary: #263047;
+  --text-primary: #f3f4f6;
+  --text-secondary: #cbd5e1;
+  --border-color: rgba(255, 255, 255, 0.08);
+  --sidebar-bg: linear-gradient(180deg, #0a0f1b 0%, #0f172a 100%);
+  --header-bg: linear-gradient(135deg, #1a2744 0%, #253b6b 100%);
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Inter, Roboto, 'Segoe UI', sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.mat-snack-bar-container.snackbar-success {
+  background-color: #16a34a !important;
+  color: #ffffff;
+}
+
+.mat-snack-bar-container.snackbar-error {
+  background-color: #dc2626 !important;
+  color: #ffffff;
+}
+
+.mat-snack-bar-container.snackbar-warn {
+  background-color: #f59e0b !important;
+  color: #0f172a;
+}
+
+.mat-snack-bar-container.snackbar-info {
+  background-color: #2563eb !important;
+  color: #ffffff;
+}
+
